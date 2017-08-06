@@ -12,6 +12,7 @@
 		AAE79DC11ED5253C0061882C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAE79DBF1ED5253C0061882C /* Main.storyboard */; };
 		AAE79DC31ED5253C0061882C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAE79DC21ED5253C0061882C /* Assets.xcassets */; };
 		AAE79DC61ED5253C0061882C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAE79DC41ED5253C0061882C /* LaunchScreen.storyboard */; };
+		AAE79DCE1ED527720061882C /* cat_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AAE79DCD1ED527720061882C /* cat_image.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		AAE79DC21ED5253C0061882C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AAE79DC51ED5253C0061882C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AAE79DC71ED5253C0061882C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAE79DCD1ED527720061882C /* cat_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat_image.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				AAE79DBB1ED5253C0061882C /* AppDelegate.swift */,
 				AAE79DBD1ED5253C0061882C /* ViewController.swift */,
 				AAE79DBF1ED5253C0061882C /* Main.storyboard */,
+				AAE79DCD1ED527720061882C /* cat_image.jpg */,
 				AAE79DC21ED5253C0061882C /* Assets.xcassets */,
 				AAE79DC41ED5253C0061882C /* LaunchScreen.storyboard */,
 				AAE79DC71ED5253C0061882C /* Info.plist */,
@@ -125,6 +128,7 @@
 			files = (
 				AAE79DC61ED5253C0061882C /* LaunchScreen.storyboard in Resources */,
 				AAE79DC31ED5253C0061882C /* Assets.xcassets in Resources */,
+				AAE79DCE1ED527720061882C /* cat_image.jpg in Resources */,
 				AAE79DC11ED5253C0061882C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

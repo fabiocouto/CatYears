@@ -10,6 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var textFieldYear: UITextField!
+    
+    @IBOutlet weak var labelYearOutput: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +25,13 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func buttonSubmit(_ sender: Any) {
+        
+        let years: Int = 7
+        let output =  Int(textFieldYear.text!)
+        let result:Int = output! * years
+        labelYearOutput.text = String(result)
+    }
 
 }
 
